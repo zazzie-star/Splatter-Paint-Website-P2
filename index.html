@@ -1,10 +1,9 @@
 <html> 
 <head>
     <script src="https://unpkg.com/paper@0.11.5/dist/paper-full.min.js"></script>
-        <script
+        <script></script>
         type="text/paperscript"
-        canvas="splatterPaint"
-        src="/script.js"></script>
+        canvas="splatterPaint" </script>
 </head>
 <body> 
     <canvas id="splatterPaint"></canvas>
@@ -19,7 +18,7 @@
             height: 100%;
         }
     </style>
-    <script> function onMouseMove(event) {
+    <script type="text/paperscript" canvas="splatterPaint"> function onMouseMove(event) {
     var path = new Path.Circle({
         center: event.middlePoint,
         radius: Math.round(Math.random() * 25) + 5
