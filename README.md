@@ -19,7 +19,7 @@ https://zazziewharton-pixel.github.io/Splatter-Paint-Website-P2/
 - and AI for pointing out that I used the wrong tags and thus nothing happened 
 
 <h3> What I learned: </h3>
-- be very careful when coding because one wrong tag can lead to ages of frustration <br>
-- more appreciation for everyone in hackclub and literally anyone who has ever programmed anything ever <br>
+- Be very careful when coding because one wrong tag can lead to ages of frustration <br>
+- More appreciation for everyone in hackclub and literally anyone who has ever programmed anything ever <br>
 - I need to write better readme's + I did not do great commits for this project so I should try and do better next time! <br>
 - Raw readme's are a thing 
