@@ -2,7 +2,8 @@
 - A simple splatter paint project, using HTML, JavaScript and CSS! <br>
 - BEWARE: This is my second project EVER so its pretty shoddy and the commits are not great 
 
-<h3>  </h3>
+<h3> Example:</h3>
+<img width="960" height="436" alt="splattterrrr" src="https://github.com/user-attachments/assets/c5970e27-cd49-4f41-b96c-ee64eb9621e9" />
 
 <h3> Feel free to test it out! </h3>
 https://zazzie-star.github.io/Splatter-Paint-Website-P2/
