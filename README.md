@@ -10,7 +10,7 @@ https://zazziewharton-pixel.github.io/Splatter-Paint-Website-P2/
 - Simply open the above link 
 
 <h3> Features: </h3>
-- Swirl your mouse around and create a unique piece of art!   
+- Swirl your mouse around and create a unique piece of art! <br>
 - Never been seen before! /s
 
 <h3> Credits:</h3>
