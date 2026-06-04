@@ -7,10 +7,10 @@ A simple splatter paint project, using HTML, JavaScript and CSS!
 https://zazziewharton-pixel.github.io/Splatter-Paint-Website-P2/
 
 <h3> Quick Start: </h3>
-* Simply open the above link 
+- Simply open the above link 
 
 <h3> Features: </h3>
-- Swirl your mouse around and create a unique piece of art!
+- Swirl your mouse around and create a unique piece of art!   
 - Never been seen before! /s
 
 <h3> Credits:</h3>
