@@ -1,4 +1,26 @@
-A simple splatter paint project, using HTML, JavaScript and CSS! (2nd project everrr!)
-okay so it may not work on github, and yes it may only take up part of the screen... but it kind of works
+<h1> Splatter-paint Website </h1>
+- A simple splatter paint project, using HTML, JavaScript and CSS! <br>
+- BEWARE: This is my second project EVER so its pretty shoddy and the commits are not great 
 
-I HAVE NO IDEA HOW IT WORKS BUT IT MIGHT BE WORKING I JUST SHOVED EVERYTHING IN I THINK IT WASN'T LINKING ON THE BIG SERVER
+<h3> Example:</h3>
+<img width="960" height="436" alt="splattterrrr" src="https://github.com/user-attachments/assets/c5970e27-cd49-4f41-b96c-ee64eb9621e9" />
+
+<h3> Feel free to test it out! </h3>
+https://zazzie-star.github.io/Splatter-Paint-Website-P2/
+
+<h3> Quick Start: </h3>
+- Simply open the above link 
+
+<h3> Features: </h3>
+- Swirl your mouse around and create a unique piece of art! <br>
+- Never been seen before! /s
+
+<h3> Credits:</h3>
+- Whichever wonderful hack-clubber(s) made this great tutorial: https://workshops.hackclub.com/splatter_paint/ <br>
+- and AI for pointing out that I used the wrong tags and thus nothing happened 
+
+<h3> What I learned: </h3>
+- Be very careful when coding because one wrong tag can lead to ages of frustration <br>
+- More appreciation for everyone in hackclub and literally anyone who has ever programmed anything ever <br>
+- I need to write better readme's + I did not do great commits for this project so I should try and do better next time! <br>
+- Raw readme's are a thing 
