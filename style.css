@@ -9,3 +9,21 @@ canvas {
     width: 100%;
     height: 100%;
 }
+
+/* using css to make a start menu!*/
+.center{ /* centres the div */
+    display: flex;
+    justify-content: center;
+}
+
+.startmenu{
+    position: absolute; /* makes div moveable */
+    backdrop-filter: blur(20px); /* blurs background */
+    background-color: rgba(255,255,255,.80); /* makes the background white */
+    bottom: 55px; /* positions it */
+    height: 90%;
+    width: 625px;
+    border-radius: 8px; /* rounds corners */
+    z-index: 11000; /* puts it on top of everything */
+
+}
