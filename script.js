@@ -11,3 +11,8 @@ function onMouseMove(event) {
         brightness: 1
     }
 }
+
+//making a working "new work" button
+function newWorkButton() {
+    document.getElementById("button1").style.display = "none";
+}
