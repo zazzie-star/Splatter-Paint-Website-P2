@@ -38,11 +38,25 @@ canvas {
     font-size: 16px;
     margin: 0;
     cursor: pointer;
+    border-radius: 8px;
 
 }
 
+/* new work button */
 .button1 {
     background-color: white;
     
+}
+
+/* previous works button */
+.button2 {
+    background-color: white;
+
+
+}
+
+/* settings button */
+.button3 {
+    background-color: white;
 
 }
