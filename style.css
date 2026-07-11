@@ -82,3 +82,19 @@ canvas {
     margin-left: -82px;
 
 }
+
+/* actual settings */
+.settings {
+    background-color: white;
+    color: darkslategray;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 1000px;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 8px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    z-index: 11001;
+
+}
