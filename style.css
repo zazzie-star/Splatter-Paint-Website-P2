@@ -31,34 +31,54 @@ canvas {
 .button {
     border: none;
     color: darkslategray;
-    padding: 15px 32px;
+    width: 172px;
+    height: auto;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: block;
-    font-size: 16px;
+    font-size: 20px;
     margin: 0;
     cursor: pointer;
     border-radius: 8px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 
 }
 
 /* new work button */
 .button1 {
     background-color: white;
-    margin: 50px 1174px; /* margin horizontal edge - 1174 */
+    margin: 0; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -82px;
+    
+
+    
 }
 
 /* previous works button */
 .button2 {
     background-color: white;
-    margin: 100px 1147px; /* margin horizontal edge - 1147 */
-
+    margin: 0; 
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -82px;
 
 }
 
 /* settings button */
 .button3 {
     background-color: white;
-    margin: 150px 1152px; /* margin horizontal edge 1152 */
+    margin: 0; 
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -82px;
 
 }
