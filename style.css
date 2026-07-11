@@ -45,12 +45,13 @@ canvas {
 /* new work button */
 .button1 {
     background-color: white;
-    
+    margin: 50px 1174px; /* margin horizontal edge - 1174 */
 }
 
 /* previous works button */
 .button2 {
     background-color: white;
+    margin: 100px 1147px; /* margin horizontal edge - 1147 */
 
 
 }
@@ -58,5 +59,6 @@ canvas {
 /* settings button */
 .button3 {
     background-color: white;
+    margin: 150px 1152px; /* margin horizontal edge 1152 */
 
 }
