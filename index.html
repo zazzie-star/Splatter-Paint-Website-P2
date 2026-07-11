@@ -14,7 +14,8 @@
     <script>
         //making a working "new work" button
         function newWorkButton() {
-            document.getElementById("button1").style.display = "none";
+            const x = document.getElementById("startMenu");
+            x.style.display = "none";
         }
     </script>
 
@@ -25,21 +26,21 @@
 
     <!-- creating an entry page/menu? - START MENU! -->
     <div class="center">
-        <div class="startmenu">
+        <div id="startMenu" class="startmenu">
             <!-- attempting to make my own start button! -->
-            <button id="button1" onclick="newWorkButton()" type="button" class="button button1">
+            <button onclick="newWorkButton()" type="button" class="button button1">
                 new work
             </button>
 
             <!-- previous works button -->
-            <button id="button2" type="button" class="button button2">
+            <button type="button" class="button button2">
                 previous works
 
 
             </button>
 
             <!-- settings button -->
-            <button id="button3" type="button" class="button button3">
+            <button type="button" class="button button3">
                 settings
 
 
