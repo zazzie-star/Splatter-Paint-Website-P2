@@ -128,3 +128,16 @@ canvas {
     display: none;
 }
 
+/* save button */
+.button4 {
+    background-color: white;
+    margin: 0; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: 245px;
+    margin-left: 460px;
+
+}
+
+
