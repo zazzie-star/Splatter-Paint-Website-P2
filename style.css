@@ -27,6 +27,14 @@ canvas {
     z-index: 11000; /* puts it on top of everything */
 }
 
+.welcomesplat {
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 130px 367px;
+    font-size: 45px;
+    
+}
+
 /* styling the "new work" button with CSS! */
 .button {
     border: none;
