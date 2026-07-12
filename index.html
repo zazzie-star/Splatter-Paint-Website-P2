@@ -24,6 +24,12 @@
             x.style.display = "block";
         }
 
+        //making the previous works div appear?
+        function previousWorksButton() {
+            const x = document.getElementById("previousWorks");
+            x.style.display = "block";
+        }
+
 
     </script>
 
@@ -41,7 +47,7 @@
             </button>
 
             <!-- previous works button -->
-            <button type="button" class="button button2">
+            <button onclick="previousWorksButton()" type="button" class="button button2">
                 previous works
 
 
@@ -57,7 +63,7 @@
             <!-- working on a settings div -->
             <div class="settings" id="Settings">
                 <p>
-                    new work
+                    Settings
                 </p>
             </div>
             

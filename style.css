@@ -99,7 +99,7 @@ canvas {
     top: 20px;
     left: 20px;
     width: 600px;
-    height: 100px;
+    height: 300px;
     font-size: 20px;
     border-radius: 8px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -108,5 +108,25 @@ canvas {
     margin-top: 110px;
     margin-left: 320px;
     display: none;
+
+}
+
+.previousworks {
+    background-color: white;
+    color: darkslategray;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 600px;
+    height: 300px;
+    font-size: 20px;
+    border-radius: 8px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    z-index: 11001;
+    text-align: center;
+    margin-top: 110px;
+    margin-left: 320px;
+    display: none;
+
 
 }
