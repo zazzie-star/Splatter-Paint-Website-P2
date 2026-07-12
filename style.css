@@ -137,7 +137,19 @@ canvas {
     left: 50%;
     margin-top: 245px;
     margin-left: 460px;
+    display: none;
 
 }
 
+/* clear button */
+.button5 {
+    background-color: white;
+    margin: 0; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: 195px;
+    margin-left: 460px;
+    display: none;
 
+}

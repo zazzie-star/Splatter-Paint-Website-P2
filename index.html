@@ -16,6 +16,14 @@
         function newWorkButton() {
             const x = document.getElementById("startMenu");
             x.style.display = "none";
+
+            //making save button appear
+            const y = document.getElementById("saveButton");
+            y.style.display = "block";
+
+            //making clear canvas button appear
+            const z = document.getElementById("clearCanvasButton");
+            z.style.display = "block";
         }
 
         //making the settings div appear
@@ -28,6 +36,11 @@
         function previousWorksButton() {
             const x = document.getElementById("previousWorks");
             x.style.display = "block";
+        }
+
+        //making functioning save button
+        function saveButton() {
+
         }
 
 
@@ -84,8 +97,14 @@
         </div>
 
         <!-- making a save button -->
-        <button onclick="saveButton()" class="button button4" type="button">
+        <button onclick="saveButton()" id="saveButton" class="button button4" type="button">
             save
+        </button>
+
+        <!-- making a clear page button -->
+        <button id="clearCanvasButton" class="button button5" type="button">
+            clear canvas
+
         </button>
     
 
