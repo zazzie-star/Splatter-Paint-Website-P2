@@ -154,6 +154,7 @@ canvas {
 
 }
 
+/* are you sure div */
 .areyousure {
     background-color: white;
     color: darkslategray;
@@ -170,5 +171,34 @@ canvas {
     margin-top: 110px;
     margin-left: 320px;
     display: none;
+
+}
+
+/* yes clear button */
+.button6 {
+    background-color: white;
+    margin: 0; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: 40px;
+    display: none;
+    z-index: 11002;
+
+}
+
+/* no clear button */
+.button7 {
+    background-color: gray;
+    color: white;
+    margin: 0; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+    display: none;
+    z-index: 11002;
 
 }
