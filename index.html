@@ -84,9 +84,16 @@
 
         }
 
+        //making are you sure div appear
         function clearCanvasButton() {
             const x = document.getElementById("areYouSure?");
             x.style.display = "block";
+
+            const y = document.getElementById("yesClearButton");
+            y.style.display = "block";
+
+            const z = document.getElementById("noClearButton");
+            z.style.display = "block";
         }
 
 
@@ -159,6 +166,16 @@
                 Are you <b>sure</b> you want to clear your canvas?
             </p>
         </div>
+
+        <!-- making a yes clear button -->
+        <button onclick="yesClearButton()" id="yesClearButton" class="button button6" type="button">
+            yes, clear my canvas
+        </button>
+
+        <!-- making a no, don't clear button -->
+        <button onclick="noClearButton()" id="noClearButton" class="button button7" type="button">
+            no, don't clear my canvas
+        </button>
     
 
             
