@@ -38,10 +38,50 @@
             x.style.display = "block";
         }
 
-        //making functioning save button
+        // making functioning save button 
+        // (I really couldn't find a tutorial for this! so i asked the built-in AI for support & got it to explain everything it was doing for learning purposes
+        // (i then typed this by hand so I can learn! :D))
         function saveButton() {
+            // first attempt to find canvas element
+            const canvas = document.querySelector('canvas');
+            let href //declares a variable named href - later hold image data url for download
+            let filename = 'splatter-paint-' + Date.now() + '.png'; //creates default file name string, and Date.now() adds a timestamp so each saved file is unique!
 
+            if (canvas) { //checks if a canvas element was found (if yes use canvas as image source!)
+                try { //starts a block to safely attempt conversion - needed because canvas conversion can fail if the canvas is 'tainted' by cross-origin content!
+                    href = canvas.toDataURL('image/png'); //converts the canvas content into a PNG data URL so that href becomes a string like data:image/png;base64...
+                } catch (e) { //if canvas.toDataURL() throws an error then this block runs!
+                    console.error('Jinkies! Cannot read canvas data:', e); //logs the error to the browser console for debugging?
+                }
+            } else { //runs where there is no canvas element, providing a fallback path!
+                const img = document.getElementById('saveImage') || document.querySelector('img'); //tries to find an image element with id 'saveImage', and if thats not found it looks for any <img> element on the page
+                if (img && img.src) { //confirms the image exists and has a source URL
+                    href = img.src; //uses the image's source URL as download target
+                    const ext = href.split('.').pop().split('?')[0]; //extracts the file extention from the image URL, used to keep the downloaded name meaningful!
+                    filename = 'splatter-paint-' + Date.now() + (ext ? '.' + ext : '.png'); //builds a fallbakc filename using the image extenstion if availble! if no extension is found though it defaults to .png!
+                } else { //if no canvas and no usable image exists.....
+                    alert('Zoinks Scoob! No canvas or image found to save. Ruh Roh!'); //show a message to the user explaining why saving can't proceed!
+                    return; //stops the function so nothing else runs
+                }
+            }
 
+            if (!href) { //if the function STILL doesnt have a valid image URL/data...
+                alert('Ruh-Roh Raggy! Unable to obtain image data to save.'); //tell the user THAT FAILEEEEDDD
+                return; //stops execution again - ends function immediately
+            }
+
+            const link = document.createElement('a'); //creates a new temp anchor element (<a>)
+            link.href = href; //sets the anchors href to the image data or URL
+            link.download = filename; //sets the download attribute so the browser saves the file rather than opening it
+            document.body.appendChild(link); //adds the temporary link to the page DOM
+            link.click(); //programatically clicks the link which triggers the brower save dialog or automatic download
+            document.body.removeChild(link); //removes temp link from DOM afterwards
+
+            // things learnt - 
+            // DOM means document object model - its the brownsers internal representation of the html page - each element becomes an object you can access and change with java script
+            // return stops function when used alone and when used with an expression it returns that value - aby code after return inside the same function doesnt run
+            // href is just the address the link/download should use - its often used as a variable name in js for a url or data url
+            
         }
 
 
