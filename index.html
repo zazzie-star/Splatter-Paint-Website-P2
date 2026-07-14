@@ -30,6 +30,20 @@
         function settingsButton() {
             const x = document.getElementById("Settings");
             x.style.display = "block";
+
+            const y = document.getElementById("closeSettingsButton");
+            y.style.display = "block";
+
+            const z = document.getElementById("") // FOR OTHER ELEMENTS!!! NEED TO ASK FOR HELP WITH THIS ONE TOO!
+        }
+
+        //making the settings button close settings
+        function closeSettingsButton() {
+            const x = document.getElementById("Settings");
+            x.style.display = "none";
+
+            const y = document.getElementById("closeSettingsButton");
+            y.style.display = "none";
         }
 
         //making the previous works div appear?
@@ -159,7 +173,7 @@
             </button>
 
             <!-- settings button -->
-            <button onclick="settingsButton()" type="button" class="button button3">
+            <button onclick="settingsButton()" type="button" class="button button3" >
                 settings
 
 
@@ -173,10 +187,17 @@
             </div>
 
             <!-- making a leave settings button -->
-            <button onclick="leaveSettingsButton()" type="button" class="button button8" >
-
-
+            <button onclick="closeSettingsButton()" type="button" class="button button8" id="closeSettingsButton">
+                exit settings
             </button>
+
+            <!-- making a paint on click button (for settings) -->
+            <button onclick="paintOnClickButton()" id="paintOnClickButton" class="button button9" type="button">
+                paint on click
+            </button>
+
+            
+
             
             <!-- welcome to splat paint header-->
             <h1 class="welcomesplat">
