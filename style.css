@@ -218,3 +218,19 @@ canvas {
     z-index: 11004;
 
 }
+
+
+/* paint on click button */
+.button9 {
+    background-color: black;
+    color: white;
+    margin: 0; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -85px;
+    margin-left: -100px;
+    display: none;
+    z-index: 11004;
+
+}
