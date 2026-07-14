@@ -96,6 +96,45 @@
             z.style.display = "block";
         }
 
+        //making the no clear button work and close the div
+        function noClearButton() {
+            const x = document.getElementById("areYouSure?");
+            x.style.display = "none";
+
+            const y = document.getElementById("yesClearButton");
+            y.style.display = "none";
+
+            const z = document.getElementById("noClearButton");
+            z.style.display = "none";
+        }
+
+        //making the yes clear button work and close canvas - using ai guidance
+        function yesClearButton() { //defines the function that runs when yes clear canvas button pressed
+            const prompt = document.getElementById('areYouSure?'); //finds the confirmation text element by id
+            if (prompt) prompt.style.display = 'none'; //hides that confirmation message if it exists
+
+            const yesButton = document.getElementById('yesClearButton'); //finds yes button element
+            if (yesButton) yesButton.style.display = 'none'; //hides the yes button
+
+            const noButton = document.getElementById('noClearButton'); //finds no button element
+            if (noButton) noButton.style.display = 'none'; //hides no button element
+
+            // clears paper.js content if paper is loaded
+            if (window.paper && paper.project) { //checks if paper.jas is loaded and has a project
+                paper.project.clear(); //clears all paper items from the canvas drawing project
+                return; //stops the function here, because the canvas is already cleared by paper.js
+            }
+
+            // as a fallback - clears the raw canvas 2d context
+            const canvas = document.getElementById('splatterPaint'); //finds raw canvas element in case paper.js is not availble
+            if (canvas && canvas.getContext) { //checks if that canvas exists and supports 2d drawing
+                const ctx = canvas.getContext('2d'); //gets that canvas drawing context
+                ctx.clearRect(0, 0, canvas.width, canvas.height); //erases whole canvas area!
+            }
+            
+
+        }
+
 
     </script>
 
