@@ -35,3 +35,4 @@
 
 www? - (what went well) I think it looks really clean and the css is pretty good, I like that the buttons work! and it functions! as its supposed to! 
 EBI? - (even better if) It would probably have been better if I'd managed to find tutorials/build things totally from scratch that are more my level? not sure - fix this later 
+okay so i think this project would have been better had I not attempted SUCH high level stuff for me, as I wouldn't need to use AI for help
