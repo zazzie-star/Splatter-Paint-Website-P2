@@ -9,8 +9,8 @@
 <img width="945" height="433" alt="splat paint 6" src="https://github.com/user-attachments/assets/28613963-986c-421d-a2c7-5faa6eeece83" />
 
 
-<h3> Please try it out! </h3>
-(add git hub link - sort this!)
+<h3> Try it out here! </h3>
+https://zazzie-star.github.io/Splatter-Paint-Website-P2/
 
 <h3> Quick Start: </h3>
 - Simply open the above link and press the "new work" button!
