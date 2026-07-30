@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style.css">
 
     <script>
+
         //making a working "new work" button (clears menu)
         function newWorkButton() {
             const x = document.getElementById("startMenu");
@@ -38,6 +39,15 @@
             const z = document.getElementById("paintOnClickButton");
             z.style.display = "block";
             
+        }
+
+        //used ai to teach me this section - 
+        window.paintOnClickMode = false;
+        window.isMouseDown = false;
+
+        function paintOnClickButton() {
+            window.paintOnClickMode = !window.paintOnClickMode;
+
         }
 
         //making the settings button close settings
