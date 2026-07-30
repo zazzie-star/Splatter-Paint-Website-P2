@@ -30,20 +30,20 @@ https://zazzie-star.github.io/Splatter-Paint-Website-P2/
 - Raw readme's are a thing
 
 <h3> What I learned (second ship): </h3>
-- I can use different files for js, css and html rather than just coding it all in the html file!
-- How to make divs appear, reappear, and dissapear!
-- How to make properly functional buttons!
-- How to make better (i hope) devlogs & the importance of devlogs!
-- OH and the importance of feedback :D 
-- also the immense satisfaction of coding something yourself, no tut and it actually working!
+- I can use different files for js, css and html rather than just coding it all in the html file! <br>
+- How to make divs appear, reappear, and dissapear! <br>
+- How to make properly functional buttons! <br>
+- How to make better (i hope) devlogs & the importance of devlogs! <br>
+- OH and the importance of feedback :D <br>
+- also the immense satisfaction of coding something yourself, no tut and it actually working!<br>
 - how to troubleshoot issues
 
 <h3> What Went Well:</h3>
-- I think it looks really clean and the css is pretty good
-- I like that the buttons work! and it functions! as its supposed to! 
-- i learned a lot
+- I think it looks really clean and the css is pretty good <br>
+- I like that the buttons work! and it functions! as its supposed to! <br>
+- i learned a lot <br>
 
 <h3> Even Better If:</h3>
-- I think this project/the things i attempted was a little out of my league as far as coding goes. I have very little experience with this, and it would have been better if I'd managed to find tutorials to my level rather than needing support from ai to teach me (as i don't think its the best teacher really and i like to learn by doing)
-- also I think for next time (if i ship again) I ought to look more into paper script coding, but at this point I'd like to move on to another project as my motivation for learning code is dwindling with this one
+- I think this project/the things i attempted was a little out of my league as far as coding goes. I have very little experience with this, and it would have been better if I'd managed to find tutorials to my level rather than needing support from ai to teach me (as i don't think its the best teacher really and i like to learn by doing) <br>
+- also I think for next time (if i ship again) I ought to look more into paper script coding, but at this point I'd like to move on to another project as my motivation for learning code is dwindling with this one <br>
 
