@@ -60,7 +60,22 @@
             const x = document.getElementById("previousWorks");
             x.style.display = "block";
 
+            const y = document.getElementById("closeGalleryButton");
+            y.style.display = "block";
+
         }
+
+        //making the close gallery button work
+        function closeGallery() {
+            const x = document.getElementById("previousWorks");
+            x.style.display = "none";
+
+            const y = document.getElementById("closeGalleryButton");
+            y.style.display = "none";
+
+        }
+
+
 
         // making functioning save button 
         // (I really couldn't find a tutorial for this! so i asked the built-in AI for support & got it to explain everything it was doing for learning purposes
@@ -217,9 +232,16 @@
             <!-- previous works div! -->
             <div class="previousworks" id="previousWorks">
                 <p>
-                    previous works
+                    you haven't made anything yet!?
                 </p>
             </div>
+
+             <!-- leave gallery button -->
+            <button onclick="closeGallery()" type="button" class="button button10" id="closeGalleryButton">
+                get making already!
+            </button>
+
+
 
 
             

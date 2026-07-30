@@ -212,8 +212,8 @@ canvas {
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-top: -85px;
-    margin-left: -100px;
+    margin-top: -55px;
+    margin-left: -90px;
     display: none;
     z-index: 11004;
 
@@ -232,6 +232,21 @@ canvas {
     margin-left: 100px;
     display: none;
     z-index: 11000;
+
+}
+
+/* close gallery */
+.button10 {
+    background-color: plum;
+    color: white;
+    margin: 0; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -55px;
+    margin-left: -90px;
+    display: none;
+    z-index: 11005;
 
 }
 
