@@ -21,7 +21,7 @@
 
 <h3> Credits:</h3>
 - Whichever wonderful hack-clubber(s) made this great tutorial: https://workshops.hackclub.com/splatter_paint/ <br>
-- and AI for pointing out that I used the wrong tags and thus nothing happened 
+- and AI for pointing out that I used the wrong tags and thus nothing happened (on the first ship) and for teaching me the bits I didn't quite understand
 
 <h3> What I learned (first ship): </h3>
 - Be very careful when coding because one wrong tag can lead to ages of frustration <br>
@@ -35,10 +35,15 @@
 - How to make properly functional buttons!
 - How to make better (i hope) devlogs & the importance of devlogs!
 - OH and the importance of feedback :D 
+- also the immense satisfaction of coding something yourself, no tut and it actually working!
+- how to troubleshoot issues
 
+<h3> What Went Well (WWW) </h3>
+- I think it looks really clean and the css is pretty good
+- I like that the buttons work! and it functions! as its supposed to! 
+- i learned a lot
 
-www? - (what went well) I think it looks really clean and the css is pretty good, I like that the buttons work! and it functions! as its supposed to! 
-EBI? - (even better if) It would probably have been better if I'd managed to find tutorials/build things totally from scratch that are more my level? not sure - fix this later 
-okay so i think this project would have been better had I not attempted SUCH high level stuff for me, as I wouldn't need to use AI for help
+<h3> Even Better If (EBI) </h3>
+- I think this project/the things i attempted was a little out of my league as far as coding goes. I have very little experience with this, and it would have been better if I'd managed to find tutorials to my level rather than needing support from ai to teach me (as i don't think its the best teacher really and i like to learn by doing)
+- also I think for next time (if i ship again) I ought to look more into paper script coding, but at this point I'd like to move on to another project as my motivation for learning code is dwindling with this one
 
-also ebi id looked more into paper script coding, but at this point I'd like to move onto a better project
