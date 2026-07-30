@@ -35,20 +35,12 @@
             const y = document.getElementById("closeSettingsButton");
             y.style.display = "block";
 
-            // other elements - i'll need help with this too. very out of my ball park
-            const z = document.getElementById("paintOnClickButton");
+            // 
+            const z = document.getElementById("noSettings");
             z.style.display = "block";
             
         }
 
-        //used ai to teach me this section - 
-        window.paintOnClickMode = false;
-        window.isMouseDown = false;
-
-        function paintOnClickButton() {
-            window.paintOnClickMode = !window.paintOnClickMode;
-
-        }
 
         //making the settings button close settings
         function closeSettingsButton() {
@@ -57,6 +49,9 @@
 
             const y = document.getElementById("closeSettingsButton");
             y.style.display = "none";
+
+            const z = document.getElementById("noSettings");
+            z.style.display = "none";
 
         }
 
@@ -201,14 +196,14 @@
                 </p>
             </div>
 
-            <!-- making a leave settings button -->
+            <!-- making a leave settings button - used to be called "exit settings"-->
             <button onclick="closeSettingsButton()" type="button" class="button button8" id="closeSettingsButton">
-                exit settings
+                settings!? who needs 'em!
             </button>
 
-            <!-- making a paint on click button (for settings) -->
-            <button onclick="paintOnClickButton()" id="paintOnClickButton" class="button button9" type="button">
-                paint on click
+            <!-- empty button-->
+            <button onclick="noSettings()" id="noSettings" class="button button9" type="button">
+                settings? who needs 'em
             </button>
 
             

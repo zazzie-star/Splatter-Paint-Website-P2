@@ -220,7 +220,7 @@ canvas {
 }
 
 
-/* paint on click button */
+/* no settings */
 .button9 {
     background-color: plum;
     color: white;
@@ -231,6 +231,8 @@ canvas {
     margin-top: -85px;
     margin-left: 100px;
     display: none;
-    z-index: 11005;
+    z-index: 11000;
 
 }
+
+/* IDEA FOR ANOTHER DAY: maybe i could also make buttons on the sides of the canvas which you can press to change the colours?? */
