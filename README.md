@@ -2,8 +2,12 @@
 - A simple website that lets you splat paint about! Built using HTML, JavaScript and CSS! <br>
 - BEWARE: This was my second project EVER and is still pretty shoddy despite all the improvements I've made on the second ship (I'm still a beginner lol)
 
-<h3> Example:</h3>
-<img width="960" height="436" alt="splattterrrr" src="https://github.com/user-attachments/assets/c5970e27-cd49-4f41-b96c-ee64eb9621e9" /> - change this image? - or add "ship 1, ship 2" to showcase development
+<h3> Ship 1. Example:</h3>
+<img width="960" height="436" alt="splattterrrr" src="https://github.com/user-attachments/assets/c5970e27-cd49-4f41-b96c-ee64eb9621e9" /> 
+
+<img width="960" height="436" alt="splat paint 6" src
+
+- change this image? - or add "ship 1, ship 2" to showcase development
 
 <h3> Please try it out! </h3>
 (add git hub link - sort this!)
@@ -36,3 +40,5 @@
 www? - (what went well) I think it looks really clean and the css is pretty good, I like that the buttons work! and it functions! as its supposed to! 
 EBI? - (even better if) It would probably have been better if I'd managed to find tutorials/build things totally from scratch that are more my level? not sure - fix this later 
 okay so i think this project would have been better had I not attempted SUCH high level stuff for me, as I wouldn't need to use AI for help
+
+also ebi id looked more into paper script coding, but at this point I'd like to move onto a better project
