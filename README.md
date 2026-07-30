@@ -38,12 +38,12 @@ https://zazzie-star.github.io/Splatter-Paint-Website-P2/
 - also the immense satisfaction of coding something yourself, no tut and it actually working!
 - how to troubleshoot issues
 
-<h3> What Went Well (WWW) </h3>
+<h3> What Went Well:</h3>
 - I think it looks really clean and the css is pretty good
 - I like that the buttons work! and it functions! as its supposed to! 
 - i learned a lot
 
-<h3> Even Better If (EBI) </h3>
+<h3> Even Better If:</h3>
 - I think this project/the things i attempted was a little out of my league as far as coding goes. I have very little experience with this, and it would have been better if I'd managed to find tutorials to my level rather than needing support from ai to teach me (as i don't think its the best teacher really and i like to learn by doing)
 - also I think for next time (if i ship again) I ought to look more into paper script coding, but at this point I'd like to move on to another project as my motivation for learning code is dwindling with this one
 
