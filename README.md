@@ -5,7 +5,9 @@
 <h3> Ship 1. Example:</h3>
 <img width="960" height="436" alt="splattterrrr" src="https://github.com/user-attachments/assets/c5970e27-cd49-4f41-b96c-ee64eb9621e9" /> 
 
-<img width="960" height="436" alt="splat paint 6" src
+<h3> Ship 2. Example: </h3>
+<img width="945" height="433" alt="splat paint 6" src="https://github.com/user-attachments/assets/28613963-986c-421d-a2c7-5faa6eeece83" />
+
 
 - change this image? - or add "ship 1, ship 2" to showcase development
 
