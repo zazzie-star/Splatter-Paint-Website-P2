@@ -176,7 +176,7 @@ canvas {
 
 /* yes clear button */
 .button6 {
-    background-color: gray;
+    background-color: plum;
     color: white;
     margin: 0; 
     position: fixed;
@@ -191,7 +191,7 @@ canvas {
 
 /* no clear button */
 .button7 {
-    background-color: gray;
+    background-color: plum;
     color: white;
     margin: 0; 
     position: fixed;
@@ -206,7 +206,7 @@ canvas {
 
 /* exit settings button */
 .button8 {
-    background-color: gray;
+    background-color: plum;
     color: white;
     margin: 0; 
     position: fixed;
@@ -222,15 +222,15 @@ canvas {
 
 /* paint on click button */
 .button9 {
-    background-color: black;
+    background-color: plum;
     color: white;
     margin: 0; 
     position: fixed;
     top: 50%;
     left: 50%;
     margin-top: -85px;
-    margin-left: -100px;
+    margin-left: 100px;
     display: none;
-    z-index: 11004;
+    z-index: 11005;
 
 }
